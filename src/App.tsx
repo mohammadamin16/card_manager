@@ -93,6 +93,7 @@ function App() {
 	return (
 		<div className={styles.app}>
 			<p className={styles.title}>Swipe up or down and tap to choose a card</p>
+			<p className={styles.message}>بفرمایید جنگولک بازی:)</p>
 			{cards.map((c, index) => (
 				<Card
 					handleSwipe={handleSwipe}

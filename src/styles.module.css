@@ -6,6 +6,14 @@
 	width: 100vw;
 	overflow: hidden;
 }
+.message {
+	direction: rtl;
+	opacity: 0.4;
+	position: fixed;
+	top: 40px;
+	color: white;
+}
+
 .footer {
 	color: white;
 	position: fixed;
