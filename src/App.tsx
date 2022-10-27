@@ -92,9 +92,7 @@ function App() {
 
 	return (
 		<div className={styles.app}>
-			<p className={styles.title}>
-				Swipe up or down to and tap to choose a card
-			</p>
+			<p className={styles.title}>Swipe up or down and tap to choose a card</p>
 			{cards.map((c, index) => (
 				<Card
 					handleSwipe={handleSwipe}
@@ -104,7 +102,7 @@ function App() {
 					index={index}
 				/>
 			))}
-			<p className={styles.footer}>by lifeDebugger</p>
+			{/*<p className={styles.footer}>by lifeDebugger</p>*/}
 			<div className={styles.fader} />
 		</div>
 	);
